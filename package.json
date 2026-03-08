@@ -1,0 +1,25 @@
+{
+  "name": "playwright-saucedemo-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarolineZhou/playwright-saucedemo-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarolineZhou/playwright-saucedemo-tests/issues"
+  },
+  "homepage": "https://github.com/CarolineZhou/playwright-saucedemo-tests#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.5"
+  }
+}
