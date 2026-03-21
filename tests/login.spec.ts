@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test";
+import { test, expect } from "../fixtures/testSetup";
 import { LoginPage } from "../pages/LoginPage";
 import { users } from "../utils/login_test_data";
 
@@ -19,4 +19,3 @@ test("login with invalid credential", async({ page }) => {
 
   await expect(page.locator("[data-test='error']")).toBeVisible();
 });
-
