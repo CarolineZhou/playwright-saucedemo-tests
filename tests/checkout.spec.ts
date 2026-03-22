@@ -1,4 +1,4 @@
-import { test, expect } from "../fixtures/testSetup";
+import { test } from "../fixtures/testSetup";
 import { InventoryPage } from "../pages/InventoryPage";
 
 test("user can checkout 1 product", async ({ loggedInPage }) => {
